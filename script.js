@@ -1,5 +1,5 @@
 let year = 1899
-while (year < 2100) {
+while (year <= 2100) {
     year++;
     if (year % 400 === 0) {
         console.log(year + " leap year")
